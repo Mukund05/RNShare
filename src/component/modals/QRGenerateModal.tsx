@@ -67,7 +67,7 @@ const QRGenerateModal: FC<QRGenerateModalProps> = ({visible, onClose}) => {
           {loading || qrValue === null || qrValue === '' ? (
             <View style={modalStyles.skeleton}>
               <Animated.View
-                style={[modalStyles.shimmerOverlay, , shimmerStyle]}>
+                style={[modalStyles.shimmerOverlay, shimmerStyle]}>
                 <LinearGradient
                   colors={['#F3F3F3', '#FFF', '#F3F3F3']}
                   start={{x: 0, y: 0}}

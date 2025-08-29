@@ -63,6 +63,7 @@ export const modalStyles = StyleSheet.create({
         height: '100%',
     },
     closeButton: {
+        marginTop: 20,
         padding: 4,
         borderRadius: 100,
         zIndex: 4,
